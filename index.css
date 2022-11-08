@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background: #006969;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+h2 {
+    font-family: '60s Scoreboard', sans-serif;
+    width: 120px;
+    height: 120px;
+    top: 35.5%;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #690000;
+    position: absolute;
+}
+
+h3 {
+    font-family: '60s Scoreboard', sans-serif;
+    position: absolute;
+    top: 30%;
+    width: 150px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+p {
+    font-family: '60s Scoreboard', sans-serif;
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #690000;
+    top: 60%;
+}
+
+rect {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #690000;
+    border-radius: 5px;
+    top: 61%;
+}
+
+canvas {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    top: 43.5%;
+    background: black;
+}
+
+button {
+    border: 1px #690000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: '60s Scoreboard', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 110px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#new-game-btn {
+    position: absolute;
+    top: 48.5%;
+    left: 46%;
+    color: #690000;
+    background: black;
+    
+}
+
+#scoreboard-background {
+    width: 600px;
+    height: 400px;
+    top: 28.5%;
+    left: 33%
+}
+
+#guest-points-text {
+    left: 56%;
+}
+
+#home-points-text {
+    left: 36%;
+}
+
+#board-title-guest {
+    left: 55%;
+}
+
+#board-title-home {
+    left: 35%;
+}
+
+#guest-background {
+    left: 55%;
+}
+
+#home-background {
+    left: 35%;
+}
+
+#plus-one-point-guest {
+    left: 55%;
+}
+
+#plus-one-point-text-guest {
+    left: 55.3%;
+}
+
+#plus-two-point-guest {   
+    left: 58%;
+}
+
+#plus-two-point-text-guest {
+    left: 58.3%;
+}
+
+#plus-three-point-guest {
+    left: 61%;
+}
+
+#plus-three-point-text-guest {  
+    left: 61.3%;
+}
+
+#plus-one-point-home {
+    left: 35%;
+}
+
+#plus-one-point-text-home {
+    left: 35.3%;
+}
+
+#plus-two-point-home {
+    left: 38%;
+}
+
+#plus-two-point-text-home {
+    left: 38.3%;
+}
+
+#plus-three-point-home {
+    left: 41%;
+}
+
+#plus-three-point-text-home {
+    left: 41.3%;
+}
+
